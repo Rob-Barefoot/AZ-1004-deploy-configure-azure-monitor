@@ -118,8 +118,9 @@ In this exercise you deploy and configure a Linux virtual machine.
 4. Review the information and choose **Create**.
 1. After the VM deploys, open the **VM properties** page and choose **Extensions + Applications** under **Settings**.
 1. Choose **Add** and select the **Network Watcher Agent for Linux**. Choose **Next** and then choose **Review and Create**. Choose **Create**.
-1. Choose **Add** and select the **Log Analytics agent for Linux** (also known as OmsAgentForLinux). Choose **Next**. You will need the Workspace ID and Workspace Key from the **LogAnalytics1** workspace. If you have not yet created the LogAnalytics1 workspace (covered in Exercise 2), you can skip this step for now and return to it after completing Exercise 2. To get these values after creating the workspace: navigate to **LogAnalytics1 > Settings > Agents**, and copy the Workspace ID and Primary Key. After entering these values, choose **Review and Create**, and then choose **Create**.
-1. Configure the AzureNetworkWatcherExtension and the OmsAgentForLinux extension so that they automatically upgrade.
+
+> [!NOTE]
+> The installation and configuration of the OmsAgentForLinux extension will be performed in Exercise 2 after the Log Analytics workspace is created.
 
 
 ## Deploy a web app with an SQL Database
