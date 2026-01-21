@@ -3,7 +3,7 @@ lab:
     title: 'Exercise - Deploy Log Analytics'
     module: 'Guided Project - Deploy and configure Azure Monitor'
 ---
-In this exercise, you’ll deploy and configure Azure Monitor.
+In this exercise, you’ll configure log analytics for Azure Monitor.
 
 This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->
 
