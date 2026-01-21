@@ -74,7 +74,7 @@ lab:
 
 1. In the Azure Portal Search Bar, enter **Log Analytics** and select **Log Analytics workspaces** from the list of results.
 2. On the **Log Analytics workspaces** page, choose **LogAnalytics1**.
-3. On the **Log Analytics workspace** page for LogAnalytics1, choose **Usage and estimated costs**.
+3. On the **Log Analytics workspace** page for LogAnalytics1, under **Settings**, choose **Usage and estimated costs**.
 4. Select **Data Retention** and set the slider to 60 days. Select **OK**.
 5. On the **Log Analytics workspace** page for LogAnalytics1, choose **Usage and estimated costs**.
 6. Select **Daily cap**. Select **On**. Set the daily cap to 10 GB and select **OK**.
